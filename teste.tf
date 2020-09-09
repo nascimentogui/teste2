@@ -8,11 +8,11 @@ terraform {
 
 provider "aws" {
     profile = "default"
-    region = "us-east-1"
+    region = "us-east-2"
 }
 
-resource "aws_instance" "example"{
-    ami = "ami-830c94e3"
+resource "aws_instance" "exampleeee"{
+    ami = "ami-07b66785f4f646ccf"
     instance_type = "t2.micro"
     
 }
